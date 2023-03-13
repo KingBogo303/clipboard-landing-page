@@ -20,7 +20,8 @@ body {
   font-family: "Bai Jamjuree", sans-serif;
 }
 h1,
-h2 {
+h2,
+h3 {
   line-height: 1.2;
   margin-bottom: 20px;
   color: var(--Dark-Grayish-Blue);
@@ -102,4 +103,19 @@ button {
 }
 .access img {
   width: 100%;
+}
+/* Supercharge section */
+.container {
+  text-align: center;
+  padding-inline: 10%;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+}
+.icon-grid {
+  margin-bottom: 1.5rem;
+}
+h3 {
+  letter-spacing: 1px;
+  margin-bottom: 0.8rem;
 }
