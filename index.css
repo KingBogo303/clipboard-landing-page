@@ -119,3 +119,14 @@ h3 {
   letter-spacing: 1px;
   margin-bottom: 0.8rem;
 }
+.brands {
+  display: flex;
+  padding-inline: 10%;
+  gap: 1.4rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.brands img {
+  height: 100%;
+  width: auto;
+}
