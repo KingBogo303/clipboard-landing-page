@@ -110,7 +110,8 @@ button {
   padding-inline: 10%;
   display: grid;
   gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 300px));
 }
 .icon-grid {
   margin-bottom: 1.5rem;
@@ -120,13 +121,34 @@ h3 {
   margin-bottom: 0.8rem;
 }
 .brands {
+  padding-block: 10%;
   display: flex;
   padding-inline: 10%;
   gap: 1.4rem;
   align-items: center;
   justify-content: space-between;
 }
+
 .brands img {
-  height: 100%;
+  height: 30px;
   width: auto;
 }
+
+@media (max-width: 830px) {
+  .brands img {
+    height: 20px;
+  }
+}
+@media (max-width: 512px) {
+  .brands img {
+    height: 10px;
+  }
+  .brands {
+    gap: 1rem;
+  }
+}
+/* @media (max-width: 362px) {
+  .brands img {
+    height: 7px;
+  }
+} */
