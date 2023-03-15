@@ -32,6 +32,7 @@ h3 {
   margin-bottom: 10px;
 }
 header {
+  position: relative;
   text-align: center;
   height: 100vh;
   padding: 100px 10%;
@@ -42,6 +43,14 @@ header {
 }
 header .logo {
   margin-bottom: 30px;
+}
+.sty {
+  position: absolute;
+  padding-inline: 10%;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 section {
   padding-inline: 10%;
