@@ -97,10 +97,16 @@ button {
   left: -50%;
   width: 150%;
 }
+
+/* access section */
 .access {
   padding-inline: 10%;
   text-align: center;
 }
+section.access .text-section {
+  padding-inline: 0%;
+}
+
 .access img {
   width: 100%;
 }
