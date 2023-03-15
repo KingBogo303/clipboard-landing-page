@@ -146,15 +146,20 @@ h3 {
   padding-block: 1.5rem;
   color: var(--Dark-Grayish-Blue);
   display: grid;
-  gap: 2.5rem;
+  gap: 2rem;
   align-items: start;
-  grid-template-columns: 1fr 1.5fr 1.5fr 2.5fr 1fr;
+  grid-template-columns: 1fr 1.5fr 1.5fr 2fr 1.3fr;
 }
 .footer .logo img {
   width: 50%;
 }
 .footerList li {
   margin-bottom: 0.5rem;
+}
+.footer .socials {
+  display: flex;
+  gap: 1rem;
+  align-self: center;
 }
 
 /* media queries */
